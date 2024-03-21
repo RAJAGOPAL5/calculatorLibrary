@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "A collection of reusable functions",
   "main": "dist/index.js",
-  "type": "commonjs",  
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RAJAGOPAL5/calculatorLibrary.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon ./src/calculator.ts",
