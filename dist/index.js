@@ -7,3 +7,4 @@ Object.defineProperty(exports, "add", { enumerable: true, get: function () { ret
 Object.defineProperty(exports, "subtract", { enumerable: true, get: function () { return calculator_1.subtract; } });
 Object.defineProperty(exports, "multiply", { enumerable: true, get: function () { return calculator_1.multiply; } });
 Object.defineProperty(exports, "divide", { enumerable: true, get: function () { return calculator_1.divide; } });
+//# sourceMappingURL=index.js.map
