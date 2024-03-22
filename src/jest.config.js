@@ -1,5 +1,4 @@
 //src/config.jest.ts
-
 module.exports = {
   rootDir: "../",
   preset: "ts-jest",
@@ -17,4 +16,8 @@ module.exports = {
       tsconfig: "tsconfig.json",
     },
   },
+  coverageDirectory: "<rootDir>/coverage",
+  collectCoverage: true,
+  collectCoverageFrom: ["<rootDir>/src/**/*.ts"],
+  coverageReporters: ["json", "lcov", "text", "clover"],
 };

@@ -15,7 +15,6 @@ function multiply(a, b) {
 }
 exports.multiply = multiply;
 function divide(a, b) {
-    // Check for division by zero and throw an error
     if (b === 0) {
         throw new Error("Division by zero is not allowed.");
     }

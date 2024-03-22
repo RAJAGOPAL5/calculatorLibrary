@@ -12,7 +12,6 @@ export function add(a: number, b: number): number {
   }
   
   export function divide(a: number, b: number): number {
-    // Check for division by zero and throw an error
     if (b === 0) {
       throw new Error("Division by zero is not allowed.");
     }
