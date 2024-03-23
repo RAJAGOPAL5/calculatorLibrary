@@ -1,4 +1,5 @@
 "use strict";
+// testCoverage.test.ts
 Object.defineProperty(exports, "__esModule", { value: true });
 const index_1 = require("../index");
 const test_1 = require("../Test/test");

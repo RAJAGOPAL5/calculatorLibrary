@@ -1,5 +1,5 @@
 "use strict";
 // src/setupTests.ts
-global.console.log = jest.fn(); // Mock console.log
-global.console.error = jest.fn(); // Mock console.error
+global.console.log = jest.fn();
+global.console.error = jest.fn();
 //# sourceMappingURL=setup.test.js.map

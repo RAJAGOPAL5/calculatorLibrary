@@ -1,3 +1,5 @@
+// testCoverage.test.ts
+
 import { add, subtract, multiply, divide } from "../index"; 
 import { safeDivide } from "../Test/test"; 
 
@@ -23,7 +25,7 @@ test("Safe Division (valid division)", () => {
 });
 
 test("Safe Division (division by zero)", () => {
-  expect(safeDivide(10, 0)).toBeNaN(); 
+    expect(safeDivide(10, 0)).toBeNaN(); 
 });
 
 

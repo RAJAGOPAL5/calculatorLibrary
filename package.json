@@ -1,5 +1,5 @@
 {
-  "name": "twilight-calc-package",
+  "name": "twilight-calc",
   "version": "1.0.0",
   "description": "A collection of reusable functions",
   "main": "dist/index.js",

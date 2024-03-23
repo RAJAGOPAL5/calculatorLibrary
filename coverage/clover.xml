@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1711116373854" clover="3.2.0">
-  <project timestamp="1711116373854" name="All files">
+<coverage generated="1711167829471" clover="3.2.0">
+  <project timestamp="1711167829471" name="All files">
     <metrics statements="22" coveredstatements="22" conditionals="1" coveredconditionals="1" methods="9" coveredmethods="9" elements="32" coveredelements="32" complexity="0" loc="22" ncloc="22" packages="2" files="3" classes="3"/>
     <package name="src">
       <metrics statements="11" coveredstatements="11" conditionals="1" coveredconditionals="1" methods="8" coveredmethods="8"/>
@@ -26,17 +26,17 @@
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
       <file name="test.ts" path="/home/tlspc-152/Desktop/calculatorLibrary/src/Test/test.ts">
         <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
-        <line num="1" count="1" type="stmt"/>
         <line num="3" count="1" type="stmt"/>
-        <line num="5" count="4" type="stmt"/>
-        <line num="6" count="4" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="15" count="1" type="stmt"/>
-        <line num="16" count="1" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="2" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="32" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
+        <line num="34" count="1" type="stmt"/>
+        <line num="35" count="1" type="stmt"/>
       </file>
     </package>
   </project>
