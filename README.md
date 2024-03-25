@@ -13,7 +13,7 @@ Division: Divides one number by another (ensuring the divisor is not zero).
 
 To use the calculator library in your Node.js project, install it via npm:
 
-Run `npm i twilight-software-package-calc`
+Run `npm i twilight-calc`
 
 ## Usage
 
