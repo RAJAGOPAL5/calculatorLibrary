@@ -7,10 +7,14 @@ module.exports = {
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
+  // testRegex: "/__tests__/.+\\.test\\.tsx?$",
+
   moduleNameMapper: {
     "^@/(.*)$": "<rootDir>/src/$1",
   },
   testMatch: ["<rootDir>/src/**/*.test.ts"],
+  // testMatch: ["**/__tests__/**/*.test.tsx?"],
+
   globals: {
     "ts-jest": {
       tsconfig: "tsconfig.json",

@@ -2,9 +2,29 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.divide = exports.multiply = exports.subtract = exports.add = void 0;
 // src/index.ts
-var calculator_1 = require("./calculator");
-Object.defineProperty(exports, "add", { enumerable: true, get: function () { return calculator_1.add; } });
-Object.defineProperty(exports, "subtract", { enumerable: true, get: function () { return calculator_1.subtract; } });
-Object.defineProperty(exports, "multiply", { enumerable: true, get: function () { return calculator_1.multiply; } });
-Object.defineProperty(exports, "divide", { enumerable: true, get: function () { return calculator_1.divide; } });
+// export { add, subtract, multiply, divide,  } from './calculator';
+// index.ts
+function add(x, y) {
+    return x + y;
+}
+exports.add = add;
+function subtract(x, y) {
+    return x - y;
+}
+exports.subtract = subtract;
+function multiply(x, y) {
+    return x * y;
+}
+exports.multiply = multiply;
+function divide(x, y) {
+    return x / y;
+}
+exports.divide = divide;
+// This is the part that might throw an error
+// export function safeDivide(x: number, y: number): number {
+// //   if (y === 0) {
+// //     throw new Error("Division by zero is not allowed.");
+// //   }
+//   return x / y;
+// }
 //# sourceMappingURL=index.js.map
