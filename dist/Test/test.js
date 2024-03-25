@@ -8,7 +8,7 @@ function safeDivide(a, b) {
         return (0, index_1.divide)(a, b);
     }
     else {
-        throw new Error("Division by zero is not allowed."); // Throw an error
+        throw new Error("Division by zero is not allowed.");
     }
 }
 exports.safeDivide = safeDivide;
