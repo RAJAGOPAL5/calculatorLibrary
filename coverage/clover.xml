@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1711369822537" clover="3.2.0">
-  <project timestamp="1711369822537" name="All files">
-    <metrics statements="23" coveredstatements="23" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9" elements="35" coveredelements="35" complexity="0" loc="23" ncloc="23" packages="2" files="3" classes="3"/>
+<coverage generated="1711371288566" clover="3.2.0">
+  <project timestamp="1711371288566" name="All files">
+    <metrics statements="27" coveredstatements="27" conditionals="3" coveredconditionals="3" methods="9" coveredmethods="9" elements="39" coveredelements="39" complexity="0" loc="27" ncloc="27" packages="2" files="3" classes="3"/>
     <package name="src">
       <metrics statements="18" coveredstatements="18" conditionals="1" coveredconditionals="1" methods="8" coveredmethods="8"/>
       <file name="calculator.ts" path="/home/tlspc-152/Desktop/calculatorLibrary/src/calculator.ts">
@@ -19,25 +19,29 @@
       </file>
       <file name="index.ts" path="/home/tlspc-152/Desktop/calculatorLibrary/src/index.ts">
         <metrics statements="8" coveredstatements="8" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
-        <line num="4" count="2" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="8" count="2" type="stmt"/>
-        <line num="9" count="2" type="stmt"/>
-        <line num="12" count="2" type="stmt"/>
-        <line num="13" count="2" type="stmt"/>
-        <line num="16" count="2" type="stmt"/>
-        <line num="17" count="3" type="stmt"/>
+        <line num="3" count="2" type="stmt"/>
+        <line num="4" count="3" type="stmt"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+        <line num="11" count="2" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="2" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
       </file>
     </package>
     <package name="src.Test">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="test.ts" path="/home/tlspc-152/Desktop/calculatorLibrary/src/Test/test.ts">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="3" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="10" count="2" type="stmt"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
         <line num="18" count="1" type="stmt"/>
-        <line num="19" count="2" type="cond" truecount="2" falsecount="0"/>
+        <line num="19" count="1" type="stmt"/>
         <line num="20" count="1" type="stmt"/>
-        <line num="22" count="1" type="stmt"/>
       </file>
     </package>
   </project>
