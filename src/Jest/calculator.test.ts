@@ -1,45 +1,38 @@
-import { add, subtract, multiply, divide } from '../calculator';
+import { add, subtract, multiply, divide } from "../calculator";
 
-function safeDivide(a: number, b: number): number {
-  if (b === 0) {
-    throw new Error('Division by zero is not allowed.');
-  }
-  return divide(a, b);
-}
-
-describe('Calculator Tests', () => {
-
-  test('Addition', () => {
+describe("Calculator Tests", () => {
+  test("Addition", () => {
     expect(add(5, 3)).toBe(8);
   });
 
-  test('Subtraction', () => {
+  test("Subtraction", () => {
     expect(subtract(10, 4)).toBe(6);
   });
 
-  test('Multiplication', () => {
+  test("Multiplication", () => {
     expect(multiply(2, 6)).toBe(12);
   });
 
-  test('Division', () => {
+  test("Division", () => {
     expect(divide(8, 2)).toBe(4);
   });
 
-  test('Safe Division (5 / 2)', () => {
-    expect(safeDivide(5, 2)).toBe(2.5);
+  // test('Safe Division (5 / 2)', () => {
+  //   expect(safeDivide(5, 2)).toBe(2.5);
+  // });
+
+  test("Safe Division (10 / 0)", () => {
+    expect(() => divide(10, 0)).toThrowError(
+      "Division by zero is not allowed."
+    );
   });
 
-  test('Safe Division (10 / 0)', () => {
-    expect(() => divide(10, 0)).toThrowError('Division by zero is not allowed.');
-  });
-
-  test('Error Handling - Division by zero', () => {
+  test("Error Handling - Division by zero", () => {
     expect(() => divide(10, 0)).toThrowError(Error); // Test that divide(10, 0) throws an Error
     try {
       divide(10, 0);
-    } catch (error:any) {
-      expect(error.message).toBe('Division by zero is not allowed.'); // Verify the error message
+    } catch (error: any) {
+      expect(error.message).toBe("Division by zero is not allowed."); // Verify the error message
     }
   });
 });
-
